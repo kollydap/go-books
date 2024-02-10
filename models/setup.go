@@ -2,10 +2,9 @@
 package models
 
 import (
-	"gorm.io/gorm"
 	"gorm.io/driver/sqlite"
-  )
-  
+	"gorm.io/gorm"
+)
 var DB *gorm.DB
 
 func ConnectDatabase() {
